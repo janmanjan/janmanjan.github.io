@@ -814,6 +814,12 @@ html, body {
   text-transform: uppercase;
 }
 
+.feature-about ul li {
+  text-align: left;
+  list-style-position: inherit;
+  margin: 5px 0 0;
+}
+
 .feature-about p {
   margin: 30px 0 0;
 }
