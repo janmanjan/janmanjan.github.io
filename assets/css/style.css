@@ -425,7 +425,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero.png) center no-repeat;
+  background: url(../img/hero.jpg) 50% 78% no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -466,6 +466,7 @@ html, body {
   margin: 30px auto 0;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .hero-content .hero-job {
@@ -480,6 +481,10 @@ html, body {
 .hero-content .hero-job-desc {
   font-size: 14px;
   max-width: 700px;
+}
+
+.hero-content .hero-job-desc span{
+  color: #254870;
 }
 
 .hero-arrow {
@@ -2056,7 +2061,7 @@ html, body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/contact.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
