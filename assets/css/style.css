@@ -250,7 +250,7 @@ html, body {
 }
 
 .social-icons.small .rectangle:hover i {
-  color: #196fc0;
+  color: #326196;
 }
 
 .social-icons .rectangle {
@@ -403,7 +403,7 @@ html, body {
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #196fc0;
+    background-color: #326196;
     z-index: 99;
     text-align: center;
     border-top: 0;
