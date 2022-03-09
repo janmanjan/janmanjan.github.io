@@ -320,7 +320,7 @@
         <section class="section-background section-me background-overlay text-center">
             <div class="container page-scroll">
                 <h2>Like My Work?</h2>
-                <p>I'd be happy to go into more depth</p>
+                <p><span>I'd be happy to go into more depth</span></p>
                 <a href="#contact" class="btn">GET IN TOUCH</a>
             </div>
         </section><!-- /.section-me -->
@@ -504,7 +504,7 @@
         <section class="site-section section-services" id="services">
 
             <div class="container-fluid">
-                <h2>Resume Highlights</h2>
+                <h2>About Me</h2>
                 <p class="section-subtitle"><span>Key Sections</span></p>
             </div>
 
@@ -549,7 +549,7 @@
                                     <p class="hidden-xs">Education</p>
                                 </div>
                             </div>
-                        </a><!-- /.item -->
+                        </a><!-- /.item 
                         <a data-target="#services-carousel" href="#" data-slide-to="3">
                             <div class="col-xs-4 col-sm-fifth">
                                 <div class="service">
@@ -559,7 +559,7 @@
                                     <p class="hidden-xs">SEO optimization</p>
                                 </div>
                             </div>
-                        </a><!-- /.item -->
+                        </a><!-- /.item
                         <a data-target="#services-carousel" href="#" data-slide-to="4">
                             <div class="col-xs-4 col-sm-fifth">
                                 <div class="service">
@@ -579,7 +579,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="service-info">
-                                        <h3 class="service-title">About Me</h3>
+                                        <h3 class="service-title">Manuel</h3>
                                         <p>I am a problem-solver by nature. I enjoy critically thinking about quantifiable solutions for both data and people using machine learning techniques in data science.  My experience in mental health, particularly producing measurable long lasting positive life outcomes for clients, has enabled me to flexibly tackle problems with respect to an ever-changing environment. I look to utilize my unique perspective to optimize impact using statistical analysis.</p>
                                     </div>
                                 </div>
@@ -593,14 +593,15 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="service-info">
-                                        <h3 class="service-title">Experience</h3>
-                                        <p>Once we have come up with a unique design and have finalized the textures and graphics to be added, the next step is to make it all come together. And that is what we aim to achieve at our web development agency India. Only a professionally designed website can justify the uniqueness of your idea and this is a fact clearly understood by our team. </p>
+                                        <h3 class="service-title">Data Science Immersive</h3>
+                                            <h4>General Assembly, Remote</h4>
+                                                <p>500 hour Data Science Immersive course that focused on collecting, analyzing, and modeling with both supervised and unsupervised machine learning algorithms.</p>
 
-                                        <p>While a good design can impress the users, it is the codes and development process that ensures that your target users will find the browsing experience equally amazing as your design. </p>
+                                                <p>The course developed proficiency with Python, on the Jupyter Lab platform, including libraries such as Pandas, NumPy, Scikit-Learn, Tensorflow, Keras and Matplotlib. Introduced supplementary software packages platforms such as Tableau, SQL, Git, PySpark, AWS.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <img src="assets/img/web-development.jpg" class="img-responsive" alt="">
+                                    <img src="assets/img/experience.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div><!-- /.item -->
@@ -609,16 +610,17 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="service-info">
-                                        <h3 class="service-title">Education</h3>
-                                        <p>With an increasing importance being given to smart phones, and mobile apps, it has become immensely important to include app development as part of web design services. Our team is known to provide excellent and extraordinary apps that are unique in every way. All the apps developed by our team are based on providing interesting features combined with enhanced functionality. With a mobile app in place, you can increase the reach of your brand and broaden its horizons too. You can have an easy to use professional app created that provides ease of functionality and an amazing appeal.</p>                                     
+                                        <h3 class="service-title">Bachelor of Arts, Psychology</h3>
+                                            <h4> Loyola Marymount University, Los Angeles</h4>
+                                                <p>Undergraduate coursework consisted of understanding and examining varying aspects and theories regarding psychology, its methodologies and applications. Courses of note during my time were Abnormal Psychology, Human Emotion, and Cognition </p>                                     
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <img src="assets/img/mobile-development.jpg" class="img-responsive" alt="">
+                                    <img src="assets/img/education.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div><!-- /.item -->
-                        <!-- Item 4 -->   
+                        <!-- Item 4    
                         <div id="item4" class="item tab-pane">
                             <div class="row">
                                 <div class="col-md-5">
@@ -632,7 +634,7 @@
                                 </div>
                             </div>
                         </div><!-- /.item -->
-                        <!-- Item 5 -->   
+                        <!-- Item 5   
                         <div id="item5" class="item tab-pane">
                             <div class="row">
                                 <div class="col-md-5">
@@ -957,22 +959,22 @@
                 <h2>CONTACT MANUEL</h2>
                 <p class="section-subtitle"><span>Questions? Let's Chat</span></p>
                 <div class="row">
-                    <form>
+                    <form method="post" name= "myemailform" action="action.php">
                         <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Name" required>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required>
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" type="email" placeholder="Email" required>
+                            <input class="form-control" type="email" name="email" placeholder="Email" required>
                         </div>
                         <div class="col-md-4">
-                            <input class="form-control" type="text" placeholder="Subject" required>
+                            <input class="form-control" type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="col-sm-12">
-                            <textarea class="form-control" placeholder="Your Message"  required></textarea>
+                            <textarea class="form-control" name="message" placeholder="Your Message"  required></textarea>
                         </div>
 
                         <div class="col-sm-12">
-                            <button class="btn btn-inverted">Send Message</button>
+                            <button class="btn btn-inverted" name="send">Send Message</button>
                         </div>  
                     </form>
                 </div>
