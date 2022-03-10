@@ -51,6 +51,19 @@
 </head>
 <body>
 
+    <!--Loader-->
+    <div class="load-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    
+    </div>
+    
+    <script>
+        $(window).con("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+    <!--End Loader-->
+
     <!-- Hero Section, Background Image change in css -->
     <div id="top" class="hero background-overlay">
     
@@ -579,12 +592,13 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="service-info">
-                                        <h3 class="service-title">Manuel</h3>
-                                        <p>I am a problem-solver by nature. I enjoy critically thinking about quantifiable solutions for both data and people using machine learning techniques in data science.  My experience in mental health, particularly producing measurable long lasting positive life outcomes for clients, has enabled me to flexibly tackle problems with respect to an ever-changing environment. I look to utilize my unique perspective to optimize impact using statistical analysis.</p>
+                                        <h3 class="service-title">Manuel J Molina</h3>
+                                            <h4> San Francisco, CA</h4>
+                                                <p>I am a problem-solver by nature. I enjoy critically thinking about quantifiable solutions for both data and people using machine learning techniques in data science.  My experience in mental health, particularly producing measurable long lasting positive life outcomes for clients, has enabled me to flexibly tackle problems with respect to an ever-changing environment. I look to utilize my unique perspective to optimize impact using statistical analysis.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
-                                    <img src="assets/img/web-design.jpg" class="img-responsive" alt="">
+                                    <img src="assets/img/about-me_2.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                         </div><!-- /.item -->
@@ -990,7 +1004,7 @@
                 <a href="https://www.linkedin.com/in/manuel-j-molina/" class="rectangle">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                <a href="#" class="rectangle">
+                <!-- <a href="#" class="rectangle">
                     <i class="fa fa-twitter"></i>
                 </a>
                 <a href="#" class="rectangle">
@@ -1000,7 +1014,7 @@
                     <i class="fa fa-envelope"></i>
                 </a>
                 <a href="#" class="rectangle">
-                    <i class="fa fa-dribbble"></i>
+                    <i class="fa fa-dribbble"></i> -->
                 </a>
             </div>
         </section><!-- /.section-networks-->
@@ -1032,7 +1046,7 @@
         </div>
 
         <div class="container text-center">
-            <p class="copyright">&copy; <a href="http://pixelperfect.mk/" target="_blank">PixelPerfect</a> - 2017</p>
+            <p class="copyright">&copy; <a href="http://pixelperfect.mk/" target="_blank">Manuel Molina</a> - 2022</p>
         </div>
 
     </footer><!-- /#footer -->
@@ -1047,7 +1061,7 @@
                     <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
+                    <h4 class="modal-title">Schizophrenic or Not?</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
                 </div>
                 <div class="modal-footer">
@@ -1065,7 +1079,7 @@
                     <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
+                    <h4 class="modal-title">Airbnb: 1st-Time Users</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
                 </div>
                 <div class="modal-footer">
@@ -1083,7 +1097,7 @@
                     <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
+                    <h4 class="modal-title">Reddit: TAT or NSQ?</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
                 </div>
                 <div class="modal-footer">
@@ -1101,7 +1115,7 @@
                     <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
+                    <h4 class="modal-title">Climate Change & Mortality</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
                 </div>
                 <div class="modal-footer">
@@ -1111,6 +1125,7 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--
     <div id="portfolioItem5" class="modal fade fade-scale" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1129,6 +1144,7 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--
     <div id="portfolioItem6" class="modal fade fade-scale" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1147,6 +1163,7 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--
     <div id="portfolioItem7" class="modal fade fade-scale" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1165,6 +1182,7 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--
     <div id="portfolioItem8" class="modal fade fade-scale" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
