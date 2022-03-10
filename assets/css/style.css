@@ -1013,11 +1013,11 @@ html, body {
 
 .section-services .container-fluid {
   padding: 100px 15px 70px;
-  background-color: #ffffff;
+  background-color: #f6f6f6;
 }
 
 .section-services .container-fluid + .container {
-  margin-top: 80px;
+  margin-top: auto; /* formerly 80px;*/
 }
 
 .section-services .col-sm-fifth {
